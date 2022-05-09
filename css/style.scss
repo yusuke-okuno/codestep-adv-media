@@ -181,4 +181,19 @@ body {
 #pickup {
   width: 100%;
   padding: 100px 0 50px 0;
+  .slick-area {
+    font-size: 0;
+  }
+  .slick-area li {
+    padding: 0 30px;
+  }
 }
+
+// 以下は一瞬縦並びになるのを解消するコード
+// →のはずが、全部消えてしまう
+// .slick-area {
+//   visibility: hidden;
+//   .slick-initialized {
+//     visibility: visible;
+//   }
+// }

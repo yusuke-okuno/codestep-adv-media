@@ -1,0 +1,3 @@
+$(function(){
+  $(".slick-area").slick();
+});
